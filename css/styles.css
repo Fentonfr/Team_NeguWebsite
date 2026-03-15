@@ -1,0 +1,121 @@
+@import './normalize.css';
+:root{
+    /* Defining our color platte*/
+    --color-primary: #1C1505;
+    --color-secondary: #FFF18F;
+    --color-teritary: #FFDE00;
+    --color-accent-one: #004DFF;
+    --color-accent-two: #FFBD00;
+}
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+/* Typography */
+::selection{
+    background: var(--color-primary);
+    color: #a8a8a8;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height: 1.5;
+    color: var(--color-primary);
+}
+
+
+/* Fonts: 
+Franklin Gothic Demi Cond
+Forte
+Haettenschweiler
+Felix Titling
+Informal Roman
+MV Boli
+*/
+
+h1, h2, h3{
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.hero-heading{
+    margin: 1rem;
+    font-size: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-heading-one{
+    margin: 1rem;
+    font-size: 8rem;
+    font-family: 'Felix Titling Regular';
+}
+
+h1{
+    font-size: 7rem;
+    font-family: 'Modern No. 20 Regular';
+}
+h2{
+    font-size: 5rem;
+    font-family: 'Felix Titling Regular';
+}
+.h2-special{
+    font-family: 'Gill Sans MT Bold';
+}
+.make-a-donation{
+    font-family: 'Forte';
+    font-size: 3rem;
+}
+.name{
+    font-family: 'Felix Titling Regular';
+    font-size: 2rem;
+}
+.gwuohs{
+    font-family: 'Britannic Bold Bold';
+    font-size: 3rem;
+}
+h3{
+    font-size: 3.5rem;
+    font-family: 'Britannic Bold Bold';
+
+}
+p{
+    font-size: 2.4rem;
+    font-family:'ITC Eras Light Regular', sans-serif; 
+}
+@media screen and (min-width: 1024px){
+
+    .hero-heading{
+        font-size: 26vh;
+    }
+    .hero-heading-one{
+        font-size: 26vh;
+    }
+    h1{
+        font-size: 12rem;
+    }
+    h2{
+        font-size: 5.6rem;
+    }
+    .make-a-donation{
+        font-size: 4rem;
+    }
+    .gwuohs{
+        font-family: 3.5rem;
+        font-size: 4rem;
+    }
+    .name{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 4rem;
+    }
+    P{
+        font-size: 2rem;
+    }
+    body{
+        margin: 0rem 10rem;
+    }
+}
