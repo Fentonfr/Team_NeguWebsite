@@ -12,15 +12,15 @@
 /* Modern No. 20 - TTF */
 @font-face {
   font-family: 'Modern No. 20';
-  src: url('fonts/modern-no-20-regular.ttf') format('truetype');
-  font-weight: normal;
+  src: url('../fonts/Modern No. 20 Regular.ttf') format('truetype');
+  font-weight: 100;
   font-style: normal;
 }
 
 /* Forte MT - OTF */
 @font-face {
   font-family: 'Forte';
-  src: url('fonts/forte-mt-regular.otf') format('opentype');
+  src: url('../fonts/Forte MT Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +28,7 @@
 /* Haettenschweiler / Britannic Bold Bold - TTF */
 @font-face {
   font-family: 'Britannic Bold';
-  src: url('fonts/britannic-bold-bold.ttf') format('truetype');
+  src: url('../fonts/Britannic Bold Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@
 /* Gill Sans MT Bold - TTF */
 @font-face {
   font-family: 'Gill Sans MT';
-  src: url('fonts/gill-sans-mt-bold.ttf') format('truetype');
+    src: url('../fonts/Gill Sans MT Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -44,7 +44,7 @@
 /* ITC Eras Light - OTF */
 @font-face {
   font-family: 'ITC Eras Light';
-  src: url('fonts/itc-eras-light-regular.otf') format('opentype');
+  src: url('../fonts/ITC Eras Light Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -52,7 +52,7 @@
 /* Eras Light ITC - TTF */
 @font-face {
   font-family: 'Eras Light ITC';
-  src: url('fonts/eras-light-itc-regular.ttf') format('truetype');
+  src: url('../fonts/Eras Light ITC Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,15 +60,15 @@
 /* Felix Titling - TTF */
 @font-face {
   font-family: 'Felix Titling';
-  src: url('fonts/felix-titling-regular.ttf') format('truetype');
-  font-weight: normal;
+  src: url('../fonts/Felix Titling Regular.ttf') format('truetype');
+  font-weight: 100;
   font-style: normal;
 }
 
 /* Engravers MT - TTF */
 @font-face {
   font-family: 'Engravers MT';
-  src: url('fonts/engravers-mt-regular.ttf') format('truetype');
+   src: url('../fonts/Engravers MT Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -117,6 +117,7 @@ h2{
 }
 .h2-special{
     font-family: 'Gill Sans MT', sans-serif;
+    font-size: 4rem;
 }
 
 .make-a-donation{
