@@ -108,7 +108,7 @@ p{
     h3{
         font-size: 3rem;
     }
-    P{
+    p{
         font-size: 2rem;
     }
     body{
@@ -401,37 +401,6 @@ p{
     
 }
 
-/*
-
-
-.feature {
-  gap: 4rem 2rem;
-  margin: 12rem 0;
-}
-@media screen and (min-width: 768px) {
-  .feature:nth-of-type(even) .feature__content {
-    order: 2;
-  }
-} 
-
-.grid {
-  display: grid;
-}
-
-@media screen and (min-width: 768px) {
-  .grid--1x2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .grid--1x3 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-*/
-
 /* about page */
 .about_page{
     display: flex;
@@ -493,7 +462,7 @@ p{
     grid-template-columns: repeat(auto-fit, 1fr);
     align-items: center;
     justify-items: center;
-    background-color: rgb(193, 255, 255);
+    background-color: rgb(193, 255, 255, 0.1);
 
 }
 
