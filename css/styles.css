@@ -124,6 +124,7 @@ p{
     gap: 2rem;
     height: 8rem;
     margin-top: -2rem;
+    position: relative; 
 }
 
 .nav-logo img{
@@ -397,6 +398,7 @@ p{
     .container_body{
         text-align: center;
     }
+    
 }
 
 /*
@@ -443,6 +445,9 @@ p{
 .about__page_content{
     margin-top: 4rem;
 }
+.about-text{
+    text-align: center;
+}
 
 @media screen and (min-width: 1024px){
     .about_page{
@@ -453,6 +458,7 @@ p{
     }
     .about-text{
         max-width: 900px;
+        text-align: left;
     }
     .about__page_content{
         display: flex;
@@ -466,3 +472,111 @@ p{
 }
 
 
+/* Footer */
+
+.footer__title{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    background-color: var(--color-secondary);
+    font-size: 9rem;
+    margin-top: 5rem;
+}
+
+.flyers__showcase{
+    /*display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(193, 255, 255);
+
+}
+
+.flyers__showcase img{
+    margin-top: 4rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (min-width: 1024px){
+    .footer__title{
+        font-size: 15rem;
+    }
+    .flyers__showcase{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+   
+}
+
+/* footer */
+
+.footer-end{
+    margin: 1rem;
+    font-size: 5rem;
+    font-family: 'Modern No. 20 Regular';
+    padding-left: 10rem;
+    align-self: center;
+    justify-self: center;
+}
+.footer__line{
+    height: 0.4rem;
+    width: 100%;
+    background-color: var(--color-teritary);
+
+}
+@media screen and (min-width: 1024px){
+    .footer-end{
+        font-size: 14rem;
+    }
+}
+
+
+
+/* collapsible */
+#nav-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50%;               /* <-- now 50% of parent/nav */
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow: hidden;          /* important for height animation */
+  max-height: 0;             /* start hidden */
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;               /* remove padding for smooth animation */
+  z-index: 9999;
+  transition: max-height 0.5s ease, padding 0.5s ease; /* smooth */
+}
+
+
+#nav-dropdown a {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+#triangle {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transform-origin: center center; 
+}
+
+#triangle.rotate {
+  transform: rotate(90deg);
+}
+
+#nav-dropdown.active {
+  display: flex;
+}   
+#nav-dropdown.active {
+  max-height: 300px;        /* adjust based on content height */
+  padding: 2rem 0;          /* restore padding when active */
+}
