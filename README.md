@@ -1,0 +1,1 @@
+This is my GWUOHS Team Negu Website Project! For my 2nd official website, I'd say I had an amazing time! Being able to try my best was wonderful. I also learned so much from this experience that I truly cannot wait to implement it into my future websites. Hope you enjoy!
